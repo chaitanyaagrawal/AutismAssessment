@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54373B0519C2FAF80009398F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54373B0419C2FAF80009398F /* Foundation.framework */; };
+		54373B0719C2FAF80009398F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54373B0619C2FAF80009398F /* CoreGraphics.framework */; };
+		54373B0919C2FAF80009398F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54373B0819C2FAF80009398F /* UIKit.framework */; };
+		54373B0F19C2FAF80009398F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54373B0D19C2FAF80009398F /* InfoPlist.strings */; };
+		54373B1119C2FAF80009398F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B1019C2FAF80009398F /* main.m */; };
+		54373B1519C2FAF80009398F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B1419C2FAF80009398F /* AppDelegate.m */; };
+		54373B1819C2FAF90009398F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54373B1619C2FAF90009398F /* Main_iPhone.storyboard */; };
+		54373B1B19C2FAF90009398F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54373B1919C2FAF90009398F /* Main_iPad.storyboard */; };
+		54373B1E19C2FAF90009398F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B1D19C2FAF90009398F /* ViewController.m */; };
+		54373B2019C2FAF90009398F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54373B1F19C2FAF90009398F /* Images.xcassets */; };
+		54373B2719C2FAF90009398F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54373B2619C2FAF90009398F /* XCTest.framework */; };
+		54373B2819C2FAF90009398F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54373B0419C2FAF80009398F /* Foundation.framework */; };
+		54373B2919C2FAF90009398F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54373B0819C2FAF80009398F /* UIKit.framework */; };
+		54373B3119C2FAF90009398F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54373B2F19C2FAF90009398F /* InfoPlist.strings */; };
+		54373B3319C2FAF90009398F /* AutismAssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B3219C2FAF90009398F /* AutismAssessmentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54373B2A19C2FAF90009398F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54373AF919C2FAF80009398F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54373B0019C2FAF80009398F;
+			remoteInfo = AutismAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54373B0119C2FAF80009398F /* AutismAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutismAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54373B0419C2FAF80009398F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54373B0619C2FAF80009398F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54373B0819C2FAF80009398F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54373B0C19C2FAF80009398F /* AutismAssessment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutismAssessment-Info.plist"; sourceTree = "<group>"; };
+		54373B0E19C2FAF80009398F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54373B1019C2FAF80009398F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54373B1219C2FAF80009398F /* AutismAssessment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutismAssessment-Prefix.pch"; sourceTree = "<group>"; };
+		54373B1319C2FAF80009398F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54373B1419C2FAF80009398F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54373B1719C2FAF90009398F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		54373B1A19C2FAF90009398F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		54373B1C19C2FAF90009398F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54373B1D19C2FAF90009398F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54373B1F19C2FAF90009398F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54373B2519C2FAF90009398F /* AutismAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutismAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54373B2619C2FAF90009398F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		54373B2E19C2FAF90009398F /* AutismAssessmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutismAssessmentTests-Info.plist"; sourceTree = "<group>"; };
+		54373B3019C2FAF90009398F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54373B3219C2FAF90009398F /* AutismAssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutismAssessmentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54373AFE19C2FAF80009398F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54373B0719C2FAF80009398F /* CoreGraphics.framework in Frameworks */,
+				54373B0919C2FAF80009398F /* UIKit.framework in Frameworks */,
+				54373B0519C2FAF80009398F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54373B2219C2FAF90009398F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54373B2719C2FAF90009398F /* XCTest.framework in Frameworks */,
+				54373B2919C2FAF90009398F /* UIKit.framework in Frameworks */,
+				54373B2819C2FAF90009398F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54373AF819C2FAF80009398F = {
+			isa = PBXGroup;
+			children = (
+				54373B0A19C2FAF80009398F /* AutismAssessment */,
+				54373B2C19C2FAF90009398F /* AutismAssessmentTests */,
+				54373B0319C2FAF80009398F /* Frameworks */,
+				54373B0219C2FAF80009398F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54373B0219C2FAF80009398F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54373B0119C2FAF80009398F /* AutismAssessment.app */,
+				54373B2519C2FAF90009398F /* AutismAssessmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54373B0319C2FAF80009398F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54373B0419C2FAF80009398F /* Foundation.framework */,
+				54373B0619C2FAF80009398F /* CoreGraphics.framework */,
+				54373B0819C2FAF80009398F /* UIKit.framework */,
+				54373B2619C2FAF90009398F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54373B0A19C2FAF80009398F /* AutismAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				54373B1319C2FAF80009398F /* AppDelegate.h */,
+				54373B1419C2FAF80009398F /* AppDelegate.m */,
+				54373B1619C2FAF90009398F /* Main_iPhone.storyboard */,
+				54373B1919C2FAF90009398F /* Main_iPad.storyboard */,
+				54373B1C19C2FAF90009398F /* ViewController.h */,
+				54373B1D19C2FAF90009398F /* ViewController.m */,
+				54373B1F19C2FAF90009398F /* Images.xcassets */,
+				54373B0B19C2FAF80009398F /* Supporting Files */,
+			);
+			path = AutismAssessment;
+			sourceTree = "<group>";
+		};
+		54373B0B19C2FAF80009398F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54373B0C19C2FAF80009398F /* AutismAssessment-Info.plist */,
+				54373B0D19C2FAF80009398F /* InfoPlist.strings */,
+				54373B1019C2FAF80009398F /* main.m */,
+				54373B1219C2FAF80009398F /* AutismAssessment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54373B2C19C2FAF90009398F /* AutismAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				54373B3219C2FAF90009398F /* AutismAssessmentTests.m */,
+				54373B2D19C2FAF90009398F /* Supporting Files */,
+			);
+			path = AutismAssessmentTests;
+			sourceTree = "<group>";
+		};
+		54373B2D19C2FAF90009398F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54373B2E19C2FAF90009398F /* AutismAssessmentTests-Info.plist */,
+				54373B2F19C2FAF90009398F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54373B0019C2FAF80009398F /* AutismAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54373B3619C2FAF90009398F /* Build configuration list for PBXNativeTarget "AutismAssessment" */;
+			buildPhases = (
+				54373AFD19C2FAF80009398F /* Sources */,
+				54373AFE19C2FAF80009398F /* Frameworks */,
+				54373AFF19C2FAF80009398F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutismAssessment;
+			productName = AutismAssessment;
+			productReference = 54373B0119C2FAF80009398F /* AutismAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54373B2419C2FAF90009398F /* AutismAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54373B3919C2FAF90009398F /* Build configuration list for PBXNativeTarget "AutismAssessmentTests" */;
+			buildPhases = (
+				54373B2119C2FAF90009398F /* Sources */,
+				54373B2219C2FAF90009398F /* Frameworks */,
+				54373B2319C2FAF90009398F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54373B2B19C2FAF90009398F /* PBXTargetDependency */,
+			);
+			name = AutismAssessmentTests;
+			productName = AutismAssessmentTests;
+			productReference = 54373B2519C2FAF90009398F /* AutismAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54373AF919C2FAF80009398F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					54373B2419C2FAF90009398F = {
+						TestTargetID = 54373B0019C2FAF80009398F;
+					};
+				};
+			};
+			buildConfigurationList = 54373AFC19C2FAF80009398F /* Build configuration list for PBXProject "AutismAssessment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54373AF819C2FAF80009398F;
+			productRefGroup = 54373B0219C2FAF80009398F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54373B0019C2FAF80009398F /* AutismAssessment */,
+				54373B2419C2FAF90009398F /* AutismAssessmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54373AFF19C2FAF80009398F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54373B1B19C2FAF90009398F /* Main_iPad.storyboard in Resources */,
+				54373B2019C2FAF90009398F /* Images.xcassets in Resources */,
+				54373B1819C2FAF90009398F /* Main_iPhone.storyboard in Resources */,
+				54373B0F19C2FAF80009398F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54373B2319C2FAF90009398F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54373B3119C2FAF90009398F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54373AFD19C2FAF80009398F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54373B1E19C2FAF90009398F /* ViewController.m in Sources */,
+				54373B1519C2FAF80009398F /* AppDelegate.m in Sources */,
+				54373B1119C2FAF80009398F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54373B2119C2FAF90009398F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54373B3319C2FAF90009398F /* AutismAssessmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54373B2B19C2FAF90009398F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54373B0019C2FAF80009398F /* AutismAssessment */;
+			targetProxy = 54373B2A19C2FAF90009398F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54373B0D19C2FAF80009398F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54373B0E19C2FAF80009398F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54373B1619C2FAF90009398F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54373B1719C2FAF90009398F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		54373B1919C2FAF90009398F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54373B1A19C2FAF90009398F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		54373B2F19C2FAF90009398F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54373B3019C2FAF90009398F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54373B3419C2FAF90009398F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54373B3519C2FAF90009398F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54373B3719C2FAF90009398F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutismAssessment/AutismAssessment-Prefix.pch";
+				INFOPLIST_FILE = "AutismAssessment/AutismAssessment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54373B3819C2FAF90009398F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutismAssessment/AutismAssessment-Prefix.pch";
+				INFOPLIST_FILE = "AutismAssessment/AutismAssessment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		54373B3A19C2FAF90009398F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutismAssessment.app/AutismAssessment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutismAssessment/AutismAssessment-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AutismAssessmentTests/AutismAssessmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		54373B3B19C2FAF90009398F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutismAssessment.app/AutismAssessment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutismAssessment/AutismAssessment-Prefix.pch";
+				INFOPLIST_FILE = "AutismAssessmentTests/AutismAssessmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54373AFC19C2FAF80009398F /* Build configuration list for PBXProject "AutismAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54373B3419C2FAF90009398F /* Debug */,
+				54373B3519C2FAF90009398F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54373B3619C2FAF90009398F /* Build configuration list for PBXNativeTarget "AutismAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54373B3719C2FAF90009398F /* Debug */,
+				54373B3819C2FAF90009398F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54373B3919C2FAF90009398F /* Build configuration list for PBXNativeTarget "AutismAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54373B3A19C2FAF90009398F /* Debug */,
+				54373B3B19C2FAF90009398F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54373AF919C2FAF80009398F /* Project object */;
+}
