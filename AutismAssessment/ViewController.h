@@ -11,4 +11,7 @@
 @interface ViewController : UIViewController{
     IBOutlet UIScrollView *scroller;
 }
+
+- (BOOL)prefersStatusBarHidden ;
+
 @end

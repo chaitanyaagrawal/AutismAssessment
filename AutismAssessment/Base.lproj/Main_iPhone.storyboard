@@ -82,28 +82,28 @@
                                 <rect key="frame" x="-14" y="-26" width="391" height="620"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.29999999999999999" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" clearButtonMode="whileEditing" id="xB7-Tn-1v5">
-                                <rect key="frame" x="112" y="173" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" clearButtonMode="whileEditing" id="xB7-Tn-1v5">
+                                <rect key="frame" x="60" y="200" width="200" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" keyboardAppearance="alert" returnKeyType="next"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" keyboardAppearance="light" returnKeyType="next"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.29999999999999999" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="izj-rS-tLT">
-                                <rect key="frame" x="112" y="235" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="izj-rS-tLT">
+                                <rect key="frame" x="60" y="269" width="200" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CFk-2u-i0k">
-                                <rect key="frame" x="91" y="326" width="144" height="61"/>
+                                <rect key="frame" x="60" y="347" width="200" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login">
+                                <state key="normal" title="LOG IN">
                                     <color key="titleColor" red="0.10675625611049586" green="0.56084306720568666" blue="0.76628311820652173" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SdH-Tb-1YZ">
-                                <rect key="frame" x="97" y="518" width="126" height="30"/>
+                                <rect key="frame" x="70" y="518" width="180" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Not a member? ->">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
