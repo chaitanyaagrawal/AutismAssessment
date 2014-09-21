@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BtP-IJ-X4y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BtP-IJ-X4y">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment version="1808" defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Mission-->
+        <!--Mission-->
         <scene sceneID="xCW-6H-KfS">
             <objects>
                 <viewController id="pVq-ax-aQx" customClass="ViewController" sceneMemberID="viewController">
@@ -33,7 +34,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="msi-Qi-9wc" kind="modal" modalTransitionStyle="crossDissolve" id="MET-BW-F5E"/>
+                                    <segue destination="pQw-Rk-hYL" kind="modal" id="OBd-Aa-KoV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,6 +52,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HJm-VQ-yva" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="405" y="-119"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lXL-qy-9SB">
+            <objects>
+                <viewController id="pQw-Rk-hYL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fy9-jA-Aj7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" id="6FM-bb-bTG">
+                                <rect key="frame" x="0.0" y="-5" width="320" height="573"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="aSG-DJ-6OB">
+                                <rect key="frame" x="124" y="106" width="165" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k9A-fp-qtT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="-45"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZWi-PL-egu">
@@ -94,13 +121,19 @@
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CFk-2u-i0k">
-                                <rect key="frame" x="60" y="347" width="200" height="61"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CFk-2u-i0k" customClass="CustomButton">
+                                <rect key="frame" x="20" y="347" width="280" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="LOG IN">
-                                    <color key="titleColor" red="0.10675625611049586" green="0.56084306720568666" blue="0.76628311820652173" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.11978695444169549" green="0.59990151562353944" blue="0.76628311820652173" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.12930547766015427" green="0.85618076281230449" blue="0.92157778532608692" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="b8E-HU-0ci" kind="push" id="fq0-nr-S7i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SdH-Tb-1YZ">
                                 <rect key="frame" x="70" y="518" width="180" height="30"/>
@@ -117,7 +150,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zp1-Nq-fvq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="823" y="223"/>
+            <point key="canvasLocation" x="1676" y="38"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="y1f-Cn-lq7">
+            <objects>
+                <viewController id="b8E-HU-0ci" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ud3-Sj-sWs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eIw-wl-oQc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="22H-M6-nVI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2182" y="-58"/>
         </scene>
     </scenes>
     <resources>
