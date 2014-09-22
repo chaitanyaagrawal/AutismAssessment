@@ -22,7 +22,6 @@
 		54373B2919C2FAF90009398F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54373B0819C2FAF80009398F /* UIKit.framework */; };
 		54373B3119C2FAF90009398F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54373B2F19C2FAF90009398F /* InfoPlist.strings */; };
 		54373B3319C2FAF90009398F /* AutismAssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B3219C2FAF90009398F /* AutismAssessmentTests.m */; };
-		5485284B19CA57A2009F3F5C /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5485284A19CA57A2009F3F5C /* CustomButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +55,6 @@
 		54373B2E19C2FAF90009398F /* AutismAssessmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutismAssessmentTests-Info.plist"; sourceTree = "<group>"; };
 		54373B3019C2FAF90009398F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54373B3219C2FAF90009398F /* AutismAssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutismAssessmentTests.m; sourceTree = "<group>"; };
-		5485284919CA57A2009F3F5C /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
-		5485284A19CA57A2009F3F5C /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +120,6 @@
 				54373B1919C2FAF90009398F /* Main_iPad.storyboard */,
 				54373B1C19C2FAF90009398F /* ViewController.h */,
 				54373B1D19C2FAF90009398F /* ViewController.m */,
-				5485284919CA57A2009F3F5C /* CustomButton.h */,
-				5485284A19CA57A2009F3F5C /* CustomButton.m */,
 				54373B1F19C2FAF90009398F /* Images.xcassets */,
 				54373B0B19C2FAF80009398F /* Supporting Files */,
 			);
@@ -258,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5485284B19CA57A2009F3F5C /* CustomButton.m in Sources */,
 				54373B1E19C2FAF90009398F /* ViewController.m in Sources */,
 				54373B1519C2FAF80009398F /* AppDelegate.m in Sources */,
 				54373B1119C2FAF80009398F /* main.m in Sources */,
