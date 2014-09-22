@@ -53,7 +53,7 @@
             </objects>
             <point key="canvasLocation" x="405" y="-119"/>
         </scene>
-        <!--View Controller-->
+        <!--Register-->
         <scene sceneID="lXL-qy-9SB">
             <objects>
                 <viewController id="pQw-Rk-hYL" sceneMemberID="viewController">
@@ -138,10 +138,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Register" id="9Oz-Gp-shk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k9A-fp-qtT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1336" y="-119"/>
+            <point key="canvasLocation" x="1414" y="-114"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZWi-PL-egu">
@@ -203,7 +204,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="pQw-Rk-hYL" kind="modal" id="hRs-YU-J5Q"/>
+                                    <segue destination="pQw-Rk-hYL" kind="modal" id="Hn7-lj-9Dn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -230,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="22H-M6-nVI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1777" y="-119"/>
+            <point key="canvasLocation" x="1779" y="-119"/>
         </scene>
     </scenes>
     <resources>
@@ -243,6 +244,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="bDo-ON-8oJ"/>
+        <segue reference="pbs-KM-y0k"/>
     </inferredMetricsTieBreakers>
 </document>
