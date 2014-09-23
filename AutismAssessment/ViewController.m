@@ -26,7 +26,7 @@
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 1000)];
     
-   // [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
+   
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -38,11 +38,11 @@
 }
  */
 
-/*
+
 - (BOOL)prefersStatusBarHidden {
-    return YES;
+    return NO;
 }
- */
+ 
 
 
 - (void)didReceiveMemoryWarning
