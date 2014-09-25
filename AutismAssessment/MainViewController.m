@@ -14,6 +14,8 @@
 
 @implementation MainViewController
 
+@synthesize menuDrawerWidth, menuDrawerX, recognizer_close, recognizer_open;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
