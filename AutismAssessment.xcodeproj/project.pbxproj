@@ -23,7 +23,6 @@
 		54373B3119C2FAF90009398F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54373B2F19C2FAF90009398F /* InfoPlist.strings */; };
 		54373B3319C2FAF90009398F /* AutismAssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B3219C2FAF90009398F /* AutismAssessmentTests.m */; };
 		547D5EA519D3043B004F78D8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA319D3043B004F78D8 /* MainViewController.m */; };
-		547D5EA619D3043B004F78D8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547D5EA419D3043B004F78D8 /* MainViewController.xib */; };
 		547D5EA919D308A1004F78D8 /* RegisterNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA819D308A1004F78D8 /* RegisterNavBar.m */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		54373B3219C2FAF90009398F /* AutismAssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutismAssessmentTests.m; sourceTree = "<group>"; };
 		547D5EA219D3043B004F78D8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		547D5EA319D3043B004F78D8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		547D5EA419D3043B004F78D8 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		547D5EA719D308A1004F78D8 /* RegisterNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterNavBar.h; sourceTree = "<group>"; };
 		547D5EA819D308A1004F78D8 /* RegisterNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterNavBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,7 +126,6 @@
 				547D5EA819D308A1004F78D8 /* RegisterNavBar.m */,
 				547D5EA219D3043B004F78D8 /* MainViewController.h */,
 				547D5EA319D3043B004F78D8 /* MainViewController.m */,
-				547D5EA419D3043B004F78D8 /* MainViewController.xib */,
 				54373B1619C2FAF90009398F /* Main_iPhone.storyboard */,
 				54373B1919C2FAF90009398F /* Main_iPad.storyboard */,
 				54373B1C19C2FAF90009398F /* ViewController.h */,
@@ -246,7 +243,6 @@
 			files = (
 				54373B1B19C2FAF90009398F /* Main_iPad.storyboard in Resources */,
 				54373B2019C2FAF90009398F /* Images.xcassets in Resources */,
-				547D5EA619D3043B004F78D8 /* MainViewController.xib in Resources */,
 				54373B1819C2FAF90009398F /* Main_iPhone.storyboard in Resources */,
 				54373B0F19C2FAF80009398F /* InfoPlist.strings in Resources */,
 			);
