@@ -14,7 +14,7 @@
 
 @implementation MainViewController
 
-@synthesize menuDrawerWidth, menuDrawerX, recognizer_close, recognizer_open;
+@synthesize menuDrawerWidth, menuDrawerX, recognizer_close, recognizer_open, menuItems, mainTitle;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,7 +22,7 @@
     menuDrawerWidth = self.view.frame.size.width * 0.75;
     menuDrawerX = self.view.frame.origin.x  - menuDrawerWidth;
     menuDrawer = [[UIView alloc] initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y + statusBarHeight, menuDrawerWidth, self.view.frame.size.height - statusBarHeight)];
-    menuDrawer.backgroundColor = [UIColor redColor];
+    menuDrawer.backgroundColor = [UIColor whiteColor];
     
     recognizer_close = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
     recognizer_open = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
@@ -31,6 +31,11 @@
     
     [self.view addGestureRecognizer:recognizer_open];
     [self.view addGestureRecognizer:recognizer_close];
+    
+    UILabel *menuTitle = [[UILabel alloc] initWithFrame:CGRectMake(60.0f, 5.0f , 200.0f, 50.0f)];
+    menuTitle.text = @"Menu Options";
+    [menuDrawer addSubview:menuTitle];
+                          
     
     [self.view addSubview:menuDrawer];
 

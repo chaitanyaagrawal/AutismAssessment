@@ -12,6 +12,8 @@
     UIView *menuDrawer;
 }
 
+@property (strong, nonatomic) IBOutlet UILabel *mainTitle;
+@property (nonatomic,retain) NSArray *menuItems;
 @property (readonly, nonatomic) UISwipeGestureRecognizer *recognizer_open, *recognizer_close;
 @property(readonly, nonatomic) int menuDrawerX, menuDrawerWidth;
 
@@ -19,7 +21,7 @@
 
 -(void) drawerAnimation ;
 
-- (IBAction)menuButton:(id)sender;
+- (IBAction)menuSelect:(id)sender;
 
 
 @end
