@@ -16,13 +16,23 @@
 
 @synthesize menuDrawerWidth, menuDrawerX, recognizer_close, recognizer_open, menuItems, mainTitle;
 
+/*
+- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    self = [super initWithNibName:<#nibNameOrNil#> bundle:<#nibBundleOrNil#>];
+    if(self){
+        
+    }
+    return self;
+}
+ */
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     int statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
     menuDrawerWidth = self.view.frame.size.width * 0.75;
     menuDrawerX = self.view.frame.origin.x  - menuDrawerWidth;
     menuDrawer = [[UIView alloc] initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y + statusBarHeight, menuDrawerWidth, self.view.frame.size.height - statusBarHeight)];
-    menuDrawer.backgroundColor = [UIColor whiteColor];
+    menuDrawer.backgroundColor = [UIColor redColor];
     
     recognizer_close = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
     recognizer_open = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
@@ -33,7 +43,7 @@
     [self.view addGestureRecognizer:recognizer_close];
     
     UILabel *menuTitle = [[UILabel alloc] initWithFrame:CGRectMake(60.0f, 5.0f , 200.0f, 50.0f)];
-    menuTitle.text = @"Menu Options";
+    menuTitle.text = @"Menu";
     [menuDrawer addSubview:menuTitle];
     
     UIScrollView *m_scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(3.0f, 65.0f, menuDrawerWidth, menuDrawer.frame.size.height)];
@@ -46,7 +56,7 @@
     [m_scrollView setClipsToBounds:YES];
     
     float originOfButtons = 10.0f;
-    float buttonWidth = 27.0f;
+    float buttonWidth = 227.0f;
     float buttonHeight = 50.0f;
     int buttonSeparator = 10;
     
@@ -89,7 +99,7 @@
 }
 */
 
-- (IBAction)menuSelect:(id)sender{
+- (void)menuSelect:(id)sender{
     NSString *selectedTitle = [menuItems objectAtIndex:[sender tag]];
     mainTitle.text = selectedTitle;
     [self drawerAnimation];
