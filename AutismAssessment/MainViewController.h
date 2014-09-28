@@ -18,6 +18,9 @@
 @property (readonly, nonatomic) UISwipeGestureRecognizer *recognizer_open, *recognizer_close;
 @property(readonly, nonatomic) int menuDrawerX, menuDrawerWidth;
 
+
+- (IBAction)menuButton:(id)sender;
+
 -(void) handleSwipes: (UISwipeGestureRecognizer *) sender;
 
 -(void) drawerAnimation ;

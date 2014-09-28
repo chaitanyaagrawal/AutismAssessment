@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BtP-IJ-X4y">
     <dependencies>
-        <deployment version="1808" identifier="iOS"/>
+        <deployment version="1808" defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -190,7 +190,6 @@
         <!--Main View Controller-->
         <scene sceneID="KH8-60-MOj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="574-gc-97h" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ObG-Qg-aLi" customClass="MainViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZrZ-gq-SKm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -205,17 +204,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
-                            <navigationBar alpha="0.5" contentMode="scaleToFill" id="rue-kH-I5O">
+                            <navigationBar contentMode="scaleToFill" id="rue-kH-I5O">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="My Cases" id="PTk-g7-sXJ"/>
+                                    <navigationItem title="My Cases" id="PTk-g7-sXJ">
+                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="ec9-Qj-DGw">
+                                            <connections>
+                                                <action selector="menuButton:" destination="ObG-Qg-aLi" id="JdU-cH-fym"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Search" id="IzD-GH-viU"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="574-gc-97h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1638" y="273"/>
         </scene>

@@ -109,6 +109,9 @@
     [self drawerAnimation];
 }
 
+- (IBAction)menuButton:(id)sender {
+}
+
 -(void) handleSwipes: (UISwipeGestureRecognizer *) sender{
     [self drawerAnimation];
 }
