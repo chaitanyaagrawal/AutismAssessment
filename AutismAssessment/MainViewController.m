@@ -32,7 +32,7 @@
     menuDrawerWidth = self.view.frame.size.width * 0.75;
     menuDrawerX = self.view.frame.origin.x  - menuDrawerWidth;
     menuDrawer = [[UIView alloc] initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y + statusBarHeight, menuDrawerWidth, self.view.frame.size.height - statusBarHeight)];
-    menuDrawer.backgroundColor = [UIColor redColor];
+    menuDrawer.backgroundColor = [UIColor whiteColor];
     
     recognizer_close = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
     recognizer_open = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
@@ -43,8 +43,12 @@
     [self.view addGestureRecognizer:recognizer_close];
     
     UILabel *menuTitle = [[UILabel alloc] initWithFrame:CGRectMake(60.0f, 5.0f , 200.0f, 50.0f)];
-    menuTitle.text = @"Menu";
+    menuTitle.text = @"Shubham Bakshi";
     [menuDrawer addSubview:menuTitle];
+    
+    UILabel *menuEmail = [[UILabel alloc] initWithFrame:CGRectMake(60.0f, 25.0f , 200.0f, 50.0f)];
+    menuEmail.text = @"abc@gmail.com";
+    [menuDrawer addSubview:menuEmail];
     
     UIScrollView *m_scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(3.0f, 65.0f, menuDrawerWidth, menuDrawer.frame.size.height)];
     [m_scrollView setScrollEnabled:YES];
@@ -58,9 +62,9 @@
     float originOfButtons = 10.0f;
     float buttonWidth = 227.0f;
     float buttonHeight = 50.0f;
-    int buttonSeparator = 10;
+    int buttonSeparator = 2;
     
-    menuItems = [[NSArray alloc]initWithObjects:@"Page1",@"Page 2", @"Page3",@"Page 4",@"Page5",@"Page 6",@"Page7",@"Page 8", nil ];
+    menuItems = [[NSArray alloc]initWithObjects:@"My Cases",@"Our Mission", @"Tutorial",@"Contact Us",@"Settings",@"Sign Out", nil ];
     for(int b=0; b<[menuItems count];b++)
     {
         UIButton *myButton = [[UIButton alloc]initWithFrame:CGRectMake(3.0f, originOfButtons, buttonWidth, buttonHeight)];
