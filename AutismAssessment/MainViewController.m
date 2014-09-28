@@ -31,7 +31,7 @@
     int statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
     menuDrawerWidth = self.view.frame.size.width * 0.75;
     menuDrawerX = self.view.frame.origin.x  - menuDrawerWidth;
-    menuDrawer = [[UIView alloc] initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y + statusBarHeight, menuDrawerWidth, self.view.frame.size.height - statusBarHeight)];
+    menuDrawer = [[UIView alloc] initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y , menuDrawerWidth, self.view.frame.size.height - statusBarHeight)]; //+ statusBarHeight to y axis co-ordinate for shifting slider menu below the status bar
     menuDrawer.backgroundColor = [UIColor whiteColor];
     
     recognizer_close = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
