@@ -35,8 +35,39 @@
     UILabel *menuTitle = [[UILabel alloc] initWithFrame:CGRectMake(60.0f, 5.0f , 200.0f, 50.0f)];
     menuTitle.text = @"Menu Options";
     [menuDrawer addSubview:menuTitle];
-                          
     
+    UIScrollView *m_scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(3.0f, 65.0f, menuDrawerWidth, menuDrawer.frame.size.height)];
+    [m_scrollView setScrollEnabled:YES];
+    [m_scrollView setShowsHorizontalScrollIndicator:NO];
+    [m_scrollView setShowsVerticalScrollIndicator:YES];
+    [m_scrollView setBackgroundColor:[UIColor clearColor]];
+    [m_scrollView setIndicatorStyle:UIScrollViewIndicatorStyleDefault];
+    [m_scrollView setCanCancelContentTouches:NO];
+    [m_scrollView setClipsToBounds:YES];
+    
+    float originOfButtons = 10.0f;
+    float buttonWidth = 27.0f;
+    float buttonHeight = 50.0f;
+    int buttonSeparator = 10;
+    
+    menuItems = [[NSArray alloc]initWithObjects:@"Page1",@"Page 2", @"Page3",@"Page 4",@"Page5",@"Page 6",@"Page7",@"Page 8", nil ];
+    for(int b=0; b<[menuItems count];b++)
+    {
+        UIButton *myButton = [[UIButton alloc]initWithFrame:CGRectMake(3.0f, originOfButtons, buttonWidth, buttonHeight)];
+        myButton.backgroundColor = [UIColor blueColor];
+        [myButton setTag:b];
+        [myButton setTitle:[menuItems objectAtIndex:b] forState:UIControlStateNormal];
+        [myButton setSelected:false];
+        [myButton addTarget:self action:@selector(menuSelect:) forControlEvents:UIControlEventTouchUpInside];
+        
+        [m_scrollView addSubview:myButton];
+        
+        originOfButtons += (buttonHeight + buttonSeparator);
+    }
+
+    [m_scrollView setContentSize:CGSizeMake([m_scrollView bounds].size.width, originOfButtons+85)];
+    
+    [menuDrawer addSubview:m_scrollView];
     [self.view addSubview:menuDrawer];
 
     
@@ -58,7 +89,9 @@
 }
 */
 
-- (IBAction)menuButton:(id)sender {
+- (IBAction)menuSelect:(id)sender{
+    NSString *selectedTitle = [menuItems objectAtIndex:[sender tag]];
+    mainTitle.text = selectedTitle;
     [self drawerAnimation];
 }
 
@@ -83,9 +116,6 @@
     [UIView commitAnimations];
 }
 
-/*
-- (IBAction)menuButton:(id)sender {
-}
- */
+
 
 @end
