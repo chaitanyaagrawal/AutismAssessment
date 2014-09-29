@@ -7,6 +7,7 @@
 //
 
 #import "tableTableViewController.h"
+#import "TableCell.h"
 
 @interface tableTableViewController ()
 
@@ -63,26 +64,34 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
+
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
-    return 0;
+    return _Title.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    static NSString *CellIdentifier = @"TableCell";
+    TableCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     
+    int row = [indexPath row];
+    
+    cell.titleLabel.text = _Title[row];
+    cell.DescriptionLabel.text = _Description[row];
+    cell.thumbImage.image = [UIImage imageNamed:_Images[row]];
+    
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
