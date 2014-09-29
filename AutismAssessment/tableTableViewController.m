@@ -17,6 +17,37 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
+    _Title = @[@"Chaitanya Agrawal",
+               @"Shubham Bakshi",
+               @"Vardan Tandon",
+               @"Sean Frost",
+               @"Archit Sachdeva",
+               @"Sam Fallahi",
+               @"Dhruv Goel",
+               @"Isha Maggu",];
+    
+    _Description = @[@"Hi",
+                     @"Bye",
+                     @"Guy",
+                     @"Sly",
+                     @"Phenyl",
+                     @"Shamail",
+                     @"File",
+                     @"Dial",];
+    
+    _Images = @[@"ChaitanyaAgrawal.jpg",
+                @"ShubhamBakshi.jpg",
+                @"VardanTandon.jpg",
+                @"SeanFrost.jpg",
+                @"ArchitSachdeva.jpg",
+                @"SamFallahi.jpg",
+                @"DhruvGoel.jpg",
+                @"IshaMaggu.jpg",];
+    
+    
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

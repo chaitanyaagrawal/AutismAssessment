@@ -25,6 +25,14 @@
 		547D5EA519D3043B004F78D8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA319D3043B004F78D8 /* MainViewController.m */; };
 		547D5EA919D308A1004F78D8 /* RegisterNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA819D308A1004F78D8 /* RegisterNavBar.m */; };
 		548DC99719D8DA270003E150 /* tableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548DC99619D8DA270003E150 /* tableTableViewController.m */; };
+		548DC9A019D8F3DE0003E150 /* ShubhamBakshi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99819D8F3DE0003E150 /* ShubhamBakshi.jpg */; };
+		548DC9A119D8F3DE0003E150 /* SamFallahi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99919D8F3DE0003E150 /* SamFallahi.jpg */; };
+		548DC9A219D8F3DE0003E150 /* ArchitSachdeva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99A19D8F3DE0003E150 /* ArchitSachdeva.jpg */; };
+		548DC9A319D8F3DE0003E150 /* SeanFrost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99B19D8F3DE0003E150 /* SeanFrost.jpg */; };
+		548DC9A419D8F3DE0003E150 /* VardanTandon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99C19D8F3DE0003E150 /* VardanTandon.jpg */; };
+		548DC9A519D8F3DE0003E150 /* IshaMaggu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99D19D8F3DE0003E150 /* IshaMaggu.jpg */; };
+		548DC9A619D8F3DE0003E150 /* ChaitanyaAgrawal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99E19D8F3DE0003E150 /* ChaitanyaAgrawal.jpg */; };
+		548DC9A719D8F3DE0003E150 /* DhruvGoel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99F19D8F3DE0003E150 /* DhruvGoel.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +72,14 @@
 		547D5EA819D308A1004F78D8 /* RegisterNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterNavBar.m; sourceTree = "<group>"; };
 		548DC99519D8DA270003E150 /* tableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableTableViewController.h; sourceTree = "<group>"; };
 		548DC99619D8DA270003E150 /* tableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableTableViewController.m; sourceTree = "<group>"; };
+		548DC99819D8F3DE0003E150 /* ShubhamBakshi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShubhamBakshi.jpg; sourceTree = "<group>"; };
+		548DC99919D8F3DE0003E150 /* SamFallahi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SamFallahi.jpg; sourceTree = "<group>"; };
+		548DC99A19D8F3DE0003E150 /* ArchitSachdeva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ArchitSachdeva.jpg; sourceTree = "<group>"; };
+		548DC99B19D8F3DE0003E150 /* SeanFrost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SeanFrost.jpg; sourceTree = "<group>"; };
+		548DC99C19D8F3DE0003E150 /* VardanTandon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VardanTandon.jpg; sourceTree = "<group>"; };
+		548DC99D19D8F3DE0003E150 /* IshaMaggu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IshaMaggu.jpg; sourceTree = "<group>"; };
+		548DC99E19D8F3DE0003E150 /* ChaitanyaAgrawal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChaitanyaAgrawal.jpg; sourceTree = "<group>"; };
+		548DC99F19D8F3DE0003E150 /* DhruvGoel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DhruvGoel.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +160,14 @@
 		54373B0B19C2FAF80009398F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				548DC99819D8F3DE0003E150 /* ShubhamBakshi.jpg */,
+				548DC99919D8F3DE0003E150 /* SamFallahi.jpg */,
+				548DC99A19D8F3DE0003E150 /* ArchitSachdeva.jpg */,
+				548DC99B19D8F3DE0003E150 /* SeanFrost.jpg */,
+				548DC99C19D8F3DE0003E150 /* VardanTandon.jpg */,
+				548DC99D19D8F3DE0003E150 /* IshaMaggu.jpg */,
+				548DC99E19D8F3DE0003E150 /* ChaitanyaAgrawal.jpg */,
+				548DC99F19D8F3DE0003E150 /* DhruvGoel.jpg */,
 				54373B0C19C2FAF80009398F /* AutismAssessment-Info.plist */,
 				54373B0D19C2FAF80009398F /* InfoPlist.strings */,
 				54373B1019C2FAF80009398F /* main.m */,
@@ -246,10 +270,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548DC9A719D8F3DE0003E150 /* DhruvGoel.jpg in Resources */,
+				548DC9A019D8F3DE0003E150 /* ShubhamBakshi.jpg in Resources */,
+				548DC9A319D8F3DE0003E150 /* SeanFrost.jpg in Resources */,
 				54373B1B19C2FAF90009398F /* Main_iPad.storyboard in Resources */,
 				54373B2019C2FAF90009398F /* Images.xcassets in Resources */,
 				54373B1819C2FAF90009398F /* Main_iPhone.storyboard in Resources */,
+				548DC9A419D8F3DE0003E150 /* VardanTandon.jpg in Resources */,
 				54373B0F19C2FAF80009398F /* InfoPlist.strings in Resources */,
+				548DC9A219D8F3DE0003E150 /* ArchitSachdeva.jpg in Resources */,
+				548DC9A519D8F3DE0003E150 /* IshaMaggu.jpg in Resources */,
+				548DC9A619D8F3DE0003E150 /* ChaitanyaAgrawal.jpg in Resources */,
+				548DC9A119D8F3DE0003E150 /* SamFallahi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
