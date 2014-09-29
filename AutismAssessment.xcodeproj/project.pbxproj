@@ -24,6 +24,7 @@
 		54373B3319C2FAF90009398F /* AutismAssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B3219C2FAF90009398F /* AutismAssessmentTests.m */; };
 		547D5EA519D3043B004F78D8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA319D3043B004F78D8 /* MainViewController.m */; };
 		547D5EA919D308A1004F78D8 /* RegisterNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA819D308A1004F78D8 /* RegisterNavBar.m */; };
+		548DC99719D8DA270003E150 /* tableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548DC99619D8DA270003E150 /* tableTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		547D5EA319D3043B004F78D8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		547D5EA719D308A1004F78D8 /* RegisterNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterNavBar.h; sourceTree = "<group>"; };
 		547D5EA819D308A1004F78D8 /* RegisterNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterNavBar.m; sourceTree = "<group>"; };
+		548DC99519D8DA270003E150 /* tableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableTableViewController.h; sourceTree = "<group>"; };
+		548DC99619D8DA270003E150 /* tableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				54373B1D19C2FAF90009398F /* ViewController.m */,
 				54373B1F19C2FAF90009398F /* Images.xcassets */,
 				54373B0B19C2FAF80009398F /* Supporting Files */,
+				548DC99519D8DA270003E150 /* tableTableViewController.h */,
+				548DC99619D8DA270003E150 /* tableTableViewController.m */,
 			);
 			path = AutismAssessment;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			files = (
 				54373B1E19C2FAF90009398F /* ViewController.m in Sources */,
 				54373B1519C2FAF80009398F /* AppDelegate.m in Sources */,
+				548DC99719D8DA270003E150 /* tableTableViewController.m in Sources */,
 				54373B1119C2FAF80009398F /* main.m in Sources */,
 				547D5EA919D308A1004F78D8 /* RegisterNavBar.m in Sources */,
 				547D5EA519D3043B004F78D8 /* MainViewController.m in Sources */,
