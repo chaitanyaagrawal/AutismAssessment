@@ -15,7 +15,7 @@
 		54373B1519C2FAF80009398F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B1419C2FAF80009398F /* AppDelegate.m */; };
 		54373B1819C2FAF90009398F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54373B1619C2FAF90009398F /* Main_iPhone.storyboard */; };
 		54373B1B19C2FAF90009398F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54373B1919C2FAF90009398F /* Main_iPad.storyboard */; };
-		54373B1E19C2FAF90009398F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B1D19C2FAF90009398F /* ViewController.m */; };
+		54373B1E19C2FAF90009398F /* MissionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B1D19C2FAF90009398F /* MissionController.m */; };
 		54373B2019C2FAF90009398F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54373B1F19C2FAF90009398F /* Images.xcassets */; };
 		54373B2719C2FAF90009398F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54373B2619C2FAF90009398F /* XCTest.framework */; };
 		54373B2819C2FAF90009398F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54373B0419C2FAF80009398F /* Foundation.framework */; };
@@ -24,6 +24,7 @@
 		54373B3319C2FAF90009398F /* AutismAssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54373B3219C2FAF90009398F /* AutismAssessmentTests.m */; };
 		547D5EA519D3043B004F78D8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA319D3043B004F78D8 /* MainViewController.m */; };
 		547D5EA919D308A1004F78D8 /* RegisterNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA819D308A1004F78D8 /* RegisterNavBar.m */; };
+		5488115819DA66C800DF81F7 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5488115719DA66C800DF81F7 /* LoginController.m */; };
 		548DC99719D8DA270003E150 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548DC99619D8DA270003E150 /* TableViewController.m */; };
 		548DC9A019D8F3DE0003E150 /* ShubhamBakshi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99819D8F3DE0003E150 /* ShubhamBakshi.jpg */; };
 		548DC9A119D8F3DE0003E150 /* SamFallahi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99919D8F3DE0003E150 /* SamFallahi.jpg */; };
@@ -59,8 +60,8 @@
 		54373B1419C2FAF80009398F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		54373B1719C2FAF90009398F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		54373B1A19C2FAF90009398F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		54373B1C19C2FAF90009398F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		54373B1D19C2FAF90009398F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54373B1C19C2FAF90009398F /* MissionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissionController.h; sourceTree = "<group>"; };
+		54373B1D19C2FAF90009398F /* MissionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MissionController.m; sourceTree = "<group>"; };
 		54373B1F19C2FAF90009398F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		54373B2519C2FAF90009398F /* AutismAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutismAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54373B2619C2FAF90009398F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -71,6 +72,8 @@
 		547D5EA319D3043B004F78D8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		547D5EA719D308A1004F78D8 /* RegisterNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterNavBar.h; sourceTree = "<group>"; };
 		547D5EA819D308A1004F78D8 /* RegisterNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterNavBar.m; sourceTree = "<group>"; };
+		5488115619DA66C800DF81F7 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		5488115719DA66C800DF81F7 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		548DC99519D8DA270003E150 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		548DC99619D8DA270003E150 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		548DC99819D8F3DE0003E150 /* ShubhamBakshi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShubhamBakshi.jpg; sourceTree = "<group>"; };
@@ -150,14 +153,16 @@
 				547D5EA319D3043B004F78D8 /* MainViewController.m */,
 				54373B1619C2FAF90009398F /* Main_iPhone.storyboard */,
 				54373B1919C2FAF90009398F /* Main_iPad.storyboard */,
-				54373B1C19C2FAF90009398F /* ViewController.h */,
-				54373B1D19C2FAF90009398F /* ViewController.m */,
+				54373B1C19C2FAF90009398F /* MissionController.h */,
+				54373B1D19C2FAF90009398F /* MissionController.m */,
 				54373B1F19C2FAF90009398F /* Images.xcassets */,
 				54373B0B19C2FAF80009398F /* Supporting Files */,
 				548DC99519D8DA270003E150 /* TableViewController.h */,
 				548DC99619D8DA270003E150 /* TableViewController.m */,
 				548DC9A819D8F7AF0003E150 /* TableCell.h */,
 				548DC9A919D8F7AF0003E150 /* TableCell.m */,
+				5488115619DA66C800DF81F7 /* LoginController.h */,
+				5488115719DA66C800DF81F7 /* LoginController.m */,
 			);
 			path = AutismAssessment;
 			sourceTree = "<group>";
@@ -305,7 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54373B1E19C2FAF90009398F /* ViewController.m in Sources */,
+				54373B1E19C2FAF90009398F /* MissionController.m in Sources */,
+				5488115819DA66C800DF81F7 /* LoginController.m in Sources */,
 				54373B1519C2FAF80009398F /* AppDelegate.m in Sources */,
 				548DC99719D8DA270003E150 /* TableViewController.m in Sources */,
 				54373B1119C2FAF80009398F /* main.m in Sources */,

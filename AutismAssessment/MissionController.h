@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController{
+@interface MissionController : UIViewController{
     IBOutlet UIScrollView *scroller;
 }
 

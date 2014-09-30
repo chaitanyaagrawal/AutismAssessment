@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MissionController.h"
 
-@interface ViewController ()
+@interface MissionController ()
 
 
 
 @end
 
-@implementation ViewController
+@implementation MissionController
 
 
 
