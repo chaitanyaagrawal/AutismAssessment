@@ -23,6 +23,8 @@
 {
     [super viewDidLoad];
     
+    [self setNeedsStatusBarAppearanceUpdate];
+    
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 1000)];
     
@@ -37,6 +39,10 @@
     return UIStatusBarStyleLightContent;
 }
  */
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
+}
 
 
 - (BOOL)prefersStatusBarHidden {

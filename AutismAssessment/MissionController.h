@@ -12,6 +12,9 @@
     IBOutlet UIScrollView *scroller;
 }
 
+
+-(UIStatusBarStyle)preferredStatusBarStyle;
+
 - (BOOL)prefersStatusBarHidden ;
 
 @end
