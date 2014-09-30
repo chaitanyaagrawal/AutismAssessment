@@ -41,7 +41,7 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AutismAssessment/tableTableViewController.m"
+            filePath = "AutismAssessment/TableViewController.m"
             timestampString = "433657314.203491"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"

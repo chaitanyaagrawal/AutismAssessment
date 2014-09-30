@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Chaitanya Agrawal. All rights reserved.
 //
 
-#import "tableTableViewController.h"
+#import "TableViewController.h"
 #import "TableCell.h"
 
 @interface tableTableViewController ()
@@ -83,7 +83,7 @@
     
     // Configure the cell...
     
-    int row = [indexPath row];
+    long row = [indexPath row];
     
     cell.titleLabel.text = _Title[row];
     cell.DescriptionLabel.text = _Description[row];
