@@ -25,6 +25,7 @@
 		547D5EA519D3043B004F78D8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA319D3043B004F78D8 /* MainViewController.m */; };
 		547D5EA919D308A1004F78D8 /* RegisterNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 547D5EA819D308A1004F78D8 /* RegisterNavBar.m */; };
 		5488115819DA66C800DF81F7 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5488115719DA66C800DF81F7 /* LoginController.m */; };
+		5488116319DB9FF000DF81F7 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5488116219DB9FF000DF81F7 /* RegisterController.m */; };
 		548DC99719D8DA270003E150 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548DC99619D8DA270003E150 /* TableViewController.m */; };
 		548DC9A019D8F3DE0003E150 /* ShubhamBakshi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99819D8F3DE0003E150 /* ShubhamBakshi.jpg */; };
 		548DC9A119D8F3DE0003E150 /* SamFallahi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 548DC99919D8F3DE0003E150 /* SamFallahi.jpg */; };
@@ -74,6 +75,8 @@
 		547D5EA819D308A1004F78D8 /* RegisterNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterNavBar.m; sourceTree = "<group>"; };
 		5488115619DA66C800DF81F7 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		5488115719DA66C800DF81F7 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		5488116119DB9FF000DF81F7 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		5488116219DB9FF000DF81F7 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
 		548DC99519D8DA270003E150 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		548DC99619D8DA270003E150 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		548DC99819D8F3DE0003E150 /* ShubhamBakshi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShubhamBakshi.jpg; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 				548DC9A919D8F7AF0003E150 /* TableCell.m */,
 				5488115619DA66C800DF81F7 /* LoginController.h */,
 				5488115719DA66C800DF81F7 /* LoginController.m */,
+				5488116119DB9FF000DF81F7 /* RegisterController.h */,
+				5488116219DB9FF000DF81F7 /* RegisterController.m */,
 			);
 			path = AutismAssessment;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 				54373B1119C2FAF80009398F /* main.m in Sources */,
 				548DC9AA19D8F7AF0003E150 /* TableCell.m in Sources */,
 				547D5EA919D308A1004F78D8 /* RegisterNavBar.m in Sources */,
+				5488116319DB9FF000DF81F7 /* RegisterController.m in Sources */,
 				547D5EA519D3043B004F78D8 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
