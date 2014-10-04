@@ -10,4 +10,8 @@
 
 @interface RegisterController : UIViewController
 
+- (BOOL)prefersStatusBarHidden ;
+
+-(UIStatusBarStyle)preferredStatusBarStyle;
+
 @end
