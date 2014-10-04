@@ -35,7 +35,7 @@
                                 </subviews>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FgT-Gy-IVA">
-                                <rect key="frame" x="-27" y="872" width="375" height="64"/>
+                                <rect key="frame" x="-27" y="882" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.28538476966609938" green="0.5653481967787255" blue="0.63432365655899048" alpha="0.70999999999999996" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.36463247440000002" green="0.71321621020000003" blue="0.76628311819999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -267,6 +267,14 @@
                                     <segue destination="msi-Qi-9wc" kind="modal" id="T6p-VL-dj3"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BIr-Zg-QpA">
+                                <rect key="frame" x="0.0" y="459" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="SUBMIT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -291,7 +299,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Ri1-Qs-fqe">
-                                            <rect key="frame" x="8" y="4" width="427" height="150"/>
+                                            <rect key="frame" x="8" y="3" width="746" height="230"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Og-JH-RZ8">
@@ -450,6 +458,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="bDo-ON-8oJ"/>
+        <segue reference="T6p-VL-dj3"/>
     </inferredMetricsTieBreakers>
 </document>
