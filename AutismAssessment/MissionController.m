@@ -17,7 +17,13 @@
 @implementation MissionController
 
 
-
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"NavBar.png"] forBarMetrics:UIBarMetricsDefault];
+    
+ 
+    return YES;
+}
 
 - (void)viewDidLoad
 {
@@ -32,16 +38,12 @@
     [scroller setContentSize:CGSizeMake(320, 1000)];
     
    
+ 
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-/*
-- (UIStatusBarStyle)preferredStatusBarStyle
-{
-    return UIStatusBarStyleLightContent;
-}
- */
+
 
 
 - (BOOL)prefersStatusBarHidden {

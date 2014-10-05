@@ -8,7 +8,11 @@
 
 #import "RegisterNavBar.h"
 
+
 @implementation RegisterNavBar
+
+
+
 
 
 //[[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"NavBar.png"] forBarMetrics:UIBarMetricsDefault];
