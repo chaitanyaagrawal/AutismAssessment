@@ -21,14 +21,15 @@
     // Do any additional setup after loading the view.
 }
 
+
 - (BOOL)prefersStatusBarHidden {
     return NO;
 }
 
--(UIStatusBarStyle)preferredStatusBarStyle
-{
+-(UIStatusBarStyle)preferredStatusBarStyle{
     return UIStatusBarStyleLightContent;
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

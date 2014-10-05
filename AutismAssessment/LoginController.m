@@ -21,16 +21,11 @@
     // Do any additional setup after loading the view.
 }
 
-/*
+
 - (BOOL)prefersStatusBarHidden {
-    return NO;
+    return YES;
 }
 
--(UIStatusBarStyle)preferredStatusBarStyle
-{
-    return UIStatusBarStyleLightContent;
-}
- */
 
 /*
 #pragma mark - Navigation
