@@ -13,8 +13,10 @@
 }
 
 
+- (BOOL)prefersStatusBarHidden ;
+
 -(UIStatusBarStyle)preferredStatusBarStyle;
 
-- (BOOL)prefersStatusBarHidden ;
+
 
 @end

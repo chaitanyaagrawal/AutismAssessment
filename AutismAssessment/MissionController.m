@@ -23,7 +23,10 @@
 {
     [super viewDidLoad];
     
-    [self setNeedsStatusBarAppearanceUpdate];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"NavBar.png"] forBarMetrics:UIBarMetricsDefault];
+
+    
+    //[self setNeedsStatusBarAppearanceUpdate];
     
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 1000)];
@@ -40,14 +43,16 @@
 }
  */
 
+
+- (BOOL)prefersStatusBarHidden {
+    return NO;
+}
+
 -(UIStatusBarStyle)preferredStatusBarStyle{
     return UIStatusBarStyleLightContent;
 }
 
 
-- (BOOL)prefersStatusBarHidden {
-    return NO;
-}
  
 
 
