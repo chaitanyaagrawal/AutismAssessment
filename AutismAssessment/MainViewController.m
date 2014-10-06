@@ -32,7 +32,7 @@
     menuDrawerWidth = self.view.frame.size.width * 0.75;
     menuDrawerX = self.view.frame.origin.x  - menuDrawerWidth;
     menuDrawer = [[UIView alloc] initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y , menuDrawerWidth, self.view.frame.size.height)]; //+ statusBarHeight to y axis co-ordinate for shifting slider menu below the status bar, -statusBarHeight from height for not extending the slider menu to the bottom
-    menuDrawer.backgroundColor = [UIColor whiteColor];
+    menuDrawer.backgroundColor = [UIColor clearColor];
     
     recognizer_close = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
     recognizer_open = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
@@ -132,6 +132,22 @@
     
     [UIView commitAnimations];
 }
+
+
+
+
+
+- (BOOL)prefersStatusBarHidden {
+    return NO;
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
+}
+
+
+
+
 
 
 

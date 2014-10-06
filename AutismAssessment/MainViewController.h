@@ -27,5 +27,9 @@
 
 - (void)menuSelect:(id)sender;
 
+- (BOOL)prefersStatusBarHidden ;
+
+-(UIStatusBarStyle)preferredStatusBarStyle;
+
 
 @end
