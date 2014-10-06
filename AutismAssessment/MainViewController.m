@@ -68,7 +68,7 @@
     for(int b=0; b<[menuItems count];b++)
     {
         UIButton *myButton = [[UIButton alloc]initWithFrame:CGRectMake(3.0f, originOfButtons, buttonWidth, buttonHeight)];
-        myButton.backgroundColor = [UIColor blueColor];
+        myButton.backgroundColor = [UIColor clearColor];
         [myButton setTag:b];
         [myButton setTitle:[menuItems objectAtIndex:b] forState:UIControlStateNormal];
         [myButton setSelected:false];
@@ -110,6 +110,7 @@
 }
 
 - (IBAction)menuButton:(id)sender {
+    
 }
 
 -(void) handleSwipes: (UISwipeGestureRecognizer *) sender{
