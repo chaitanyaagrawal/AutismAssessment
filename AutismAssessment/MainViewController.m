@@ -44,10 +44,12 @@
     
     UILabel *menuTitle = [[UILabel alloc] initWithFrame:CGRectMake(60.0f, 5.0f , 200.0f, 50.0f)];
     menuTitle.text = @"Shubham Bakshi";
+    menuTitle.textColor = [UIColor darkGrayColor];
     [menuDrawer addSubview:menuTitle];
     
     UILabel *menuEmail = [[UILabel alloc] initWithFrame:CGRectMake(60.0f, 25.0f , 200.0f, 50.0f)];
     menuEmail.text = @"abc@gmail.com";
+    menuEmail.textColor = [ UIColor whiteColor];
     [menuDrawer addSubview:menuEmail];
     
     UIScrollView *m_scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(3.0f, 65.0f, menuDrawerWidth, menuDrawer.frame.size.height)];
@@ -64,7 +66,21 @@
     float buttonHeight = 50.0f;
     int buttonSeparator = 2;
     
-    menuItems = [[NSArray alloc]initWithObjects:@"My Cases",@"Our Mission", @"Tutorial",@"Contact Us",@"Settings",@"Sign Out", nil ];
+    menuItems = [[NSArray alloc]initWithObjects:@"My Cases",@"Our Mission", @"Tutorial",@"Contact Us",@"Settings",@"Sign Out", nil];
+    for(int b=0; b<[menuItems count];b++)
+    {
+        UIButton *myButton = [[UIButton alloc]initWithFrame:CGRectMake(3.0f, originOfButtons, buttonWidth, buttonHeight)];
+        myButton.backgroundColor = [UIColor clearColor];
+        [myButton setTag:b];
+        [myButton setTitle:[menuItems objectAtIndex:b] forState:UIControlStateNormal];
+        [myButton setSelected:false];
+        [myButton addTarget:self action:@selector(menuSelect:) forControlEvents:UIControlEventTouchUpInside];
+        
+        [m_scrollView addSubview:myButton];
+        
+        originOfButtons += (buttonHeight + buttonSeparator);
+    }
+    
     for(int b=0; b<[menuItems count];b++)
     {
         UIButton *myButton = [[UIButton alloc]initWithFrame:CGRectMake(3.0f, originOfButtons, buttonWidth, buttonHeight)];
@@ -80,7 +96,6 @@
     }
 
     [m_scrollView setContentSize:CGSizeMake([m_scrollView bounds].size.width, originOfButtons+85)];
-    
     [menuDrawer addSubview:m_scrollView];
     [self.view addSubview:menuDrawer];
 
